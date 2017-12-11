@@ -1,0 +1,107 @@
+
+/*Universal Selector*/
+
+/*paragraph Selector*/
+
+/*h1 Selector*/
+h1 {
+	color: white;
+}
+
+.nav {
+	height: 20px;
+	width: 200px;
+	background-color: grey;
+}
+
+/*class Selector*/
+.element {
+  animation: pulse 5s infinite;
+  height: 200px;
+  width: 200px;
+  font-size: 42px;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
+
+/*selecter.class*/
+p.element:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+/*Normal Box*/
+.normal-box1 {
+	/*'margin: 0 auto;' centers contentin parent*/
+	margin: 0 auto;
+	text-align: center;
+	background: #1B44BF;
+	margin-top: 5px;
+	padding: 10px;
+	width: 250px;
+	font-size: 10px;
+	font-family: "Times New Roman", Times, serif;
+	border-style: dashed;
+	border-width: 3px;
+	border-color: black;
+}
+
+.normal-box2 {
+	padding: 10px;
+	width: 250px;
+	font-size: 10px;
+	background: #BF791B;
+	margin: 0 auto;
+	border-style: dashed;
+	border-width: 3px;
+	border-color: black;
+}
+
+/*Relative Box*/
+.relative-box {
+    position: relative;
+    background: black;
+    color: red;
+    top: 10px;
+    left: 500px;
+    padding: 5px;
+    width: 250px;
+    border-style: solid;
+   	border-width: 3px;
+	border-color: green;
+}
+
+/*Absolute Box*/
+.absolute-box {
+	position: absolute;
+	background: green;
+	left: 800px;
+	padding: 10px;
+	top: 300px;
+	width: 250px;
+	font-size: 12px;
+	border-style: inset;
+	border-width: 3px;
+	border-color: blue;
+}
+
+/*Fixed Box*/
+.fixed-box {
+	position: fixed;
+	background: white;
+	color: blue;
+	top: 150px;
+	width: 250px;
+	border-style: double;
+	border-width: 3px;
+	border-color: black;
+}
+
+
